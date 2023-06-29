@@ -15,9 +15,10 @@ function App(){
     return(
         <>
         <h1 className='heading_style'>My Top 5 Prime Shows</h1>
-        {Sdata.map((val)=>{
+        {Sdata.map((val, index)=>{
             return(
                 <Card 
+                key = {val.id}
                 imgSrc = {val.imgSrc}
                 genre = {val.genre}
                 link={val.Link}
