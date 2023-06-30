@@ -1,30 +1,22 @@
-import Card from './Card'
-import Sdata from './Sdata';
+import Netflix from './Netflix'
+import Prime from './Prime'
 
-// function ncard(val){
-//     return(
-//         <Card 
-//         imgSrc = {val.imgSrc}
-//         genre = {val.genre}
-//         link={val.Link}
-//         title ={val.title} />
-//     )
-// }
+const favPlat="All";
 
 function App(){
     return(
         <>
-        <h1 className='heading_style'>My Top 5 Prime Shows</h1>
-        {Sdata.map((val, index)=>{
-            return(
-                <Card 
-                key = {val.id}
-                imgSrc = {val.imgSrc}
-                genre = {val.genre}
-                link={val.Link}
-                title ={val.title} />
-            )
-        })};
+        <h1 className='heading_style'>My Top Five Shows</h1>
+        {favPlat==="All"?(
+            <>
+            <Prime/>
+            <Netflix/>
+            </>
+        ) : favPlat==='Netflix'?(
+            <Netflix/>
+        ):(
+            <Prime/>
+        )}
         </>
     )
 }

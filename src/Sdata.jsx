@@ -1,6 +1,7 @@
 const Sdata = [
     {
         id: "1",
+        platform:'Prime',
         imgSrc: "https://wallpapercave.com/wp/wp4092812.jpg",
         genre: "Comedy",
         title: "Young Sheldon",
@@ -8,6 +9,7 @@ const Sdata = [
     },
     {
         id: "2",
+        platform:'Netflix',
         imgSrc: "https://wallpapercave.com/wp/wp5251023.jpg",
         genre: "Comedy/Sitcom",
         title: "Brooklyn Nine Nine",
@@ -15,6 +17,7 @@ const Sdata = [
     },
     {
         id: "3",
+        platform:'Prime',
         imgSrc: "https://wallpapercave.com/wp/d8wldxe.jpg",
         genre: "Horror/Romance",
         title: "The Vampire Diaries",
@@ -22,6 +25,7 @@ const Sdata = [
     },
     {
         id: '4',
+        platform:'Netflix',
         imgSrc: "https://wallpapercave.com/wp/wp2525322.jpg",
         genre: "Comedy/Sitcom",
         title: "The Big Bang Theory",
@@ -29,8 +33,9 @@ const Sdata = [
     },
     {
         id: "5",
+        platform:'Netflix',
         imgSrc: "https://wallpapercave.com/wp/wp5770340.png",
-        genre: "Thriller",
+        genre: "Thriller/Horror",
         title: "Dark",
         Link: "https://www.netflix.com/in/title/80100172?source=35"
     }
